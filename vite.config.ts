@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/animation-playground-v2/',
   resolve: {
     alias: {
       // Alias @ to the src directory
